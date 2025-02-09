@@ -38,7 +38,7 @@ export const createProduct = async (productData) => {
 
 export const updateProduct = async (id, productData) => {
   const response = await axiosInstance.put(
-    `http://localhost:5000/api/products/${id}`,
+    `https://simple-crud-mern.onrender.com/api/products/${id}`,
     productData
   );
   return response.data;
@@ -46,7 +46,7 @@ export const updateProduct = async (id, productData) => {
 
 export const deleteProduct = async (id) => {
   const response = await axiosInstance.delete(
-    `http://localhost:5000/api/products/${id}`
+    `https://simple-crud-mern.onrender.com/api/products/${id}`
   );
   return response.data;
 };
