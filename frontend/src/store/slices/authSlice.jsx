@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import { loginAdmin, registerUser } from "../../api/authAPI";
 
-// Login thunk
+
 export const login = createAsyncThunk(
   "auth/login",
   async (credentials, { rejectWithValue }) => {
@@ -14,7 +14,7 @@ export const login = createAsyncThunk(
   }
 );
 
-// Register thunk
+
 export const register = createAsyncThunk(
   "auth/register",
   async (userData, { rejectWithValue }) => {

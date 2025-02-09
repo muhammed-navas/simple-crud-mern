@@ -1,29 +1,3 @@
-// import React from "react";
-
-// const ProductList = ({ products, onDelete }) => {
-//   return (
-//     <div>
-//       {products.map((product) => (
-//         <div key={product._id}>
-//           <h3>{product.name}</h3>
-//           <p>{product.description}</p>
-//           <p>Price: ${product.price}</p>
-//           <p>Stock: {product.stock}</p>
-//           <img
-//             src={product.image}
-//             alt={product.name}
-//             style={{ width: "100px" }}
-//           />
-//           {onDelete && (
-//             <button onClick={() => onDelete(product._id)}>Delete</button>
-//           )}
-//         </div>
-//       ))}
-//     </div>
-//   );
-// };
-
-// export default ProductList;
 
 
 

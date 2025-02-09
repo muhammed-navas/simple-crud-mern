@@ -1,36 +1,4 @@
-// import React, { useEffect } from "react";
-// import { useDispatch, useSelector } from "react-redux";
-// import { fetchProducts, deleteProduct } from "../api/productAPI";
-// import ProductForm from "../components/ProductForm";
-// import ProductList from "../components/ProductList";
 
-// const Dashboard = () => {
-//   const dispatch = useDispatch();
-//   const products = useSelector((state) => state.product.products);
-
-//   useEffect(() => {
-//     // dispatch(fetchProducts());
-//   }, [dispatch]);
-
-//   const handleDelete = (id) => {
-//     dispatch(deleteProduct(id));
-//   };
-
-//   const handleAddProduct = (product) => {
-//     // Dispatch createProduct action here
-//     console.log("Add Product:", product);
-//   };
-
-//   return (
-//     <div>
-//       <h1>Admin Dashboard</h1>
-//       <ProductForm onSubmit={handleAddProduct} />
-//       <ProductList products={products} onDelete={handleDelete} />
-//     </div>
-//   );
-// };
-
-// export default Dashboard;
 
 
 
